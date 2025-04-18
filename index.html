@@ -1,135 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Everton Carvalho - Desenvolvedor Java</title>
+    <title>Everton Carvalho</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        :root {
-            --font-size-base: 1rem;
-            --font-size-h1: 2rem;
-            --font-size-h2: 1.5rem;
-            --icon-size: 24px;
-            --padding-body: 50px;
-            --highlight-color: #0a66c2;
-        }
-        body {
-            font-family: Arial, sans-serif; 
-            text-align: center; 
-            padding: var(--padding-body); 
-            background-color: antiquewhite;
-            font-size: var(--font-size-base);
-            line-height: 1.6;
-            margin: 0;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        h1 {
-            color: black;
-            font-size: var(--font-size-h1);
-            margin-bottom: 20px;
-        }
-        h2 {
-            font-size: var(--font-size-h2);
-            color: #333;
-            margin-top: 20px;
-        }
-        p {
-            margin: 15px 0;
-        }
-        .highlight {
-            color: var(--highlight-color);
-            font-weight: bold;
-        }
-        .social-links {
-            margin-top: 40px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .social-links a {
-            font-size: var(--icon-size);
-            text-decoration: none;
-            display: inline-block;
-            transition: transform 0.3s ease;
-            width: 50px;
-            height: 50px;
-            line-height: 50px;
-        }
-        .social-links a.linkedin { color: #0a66c2; }
-        .social-links a.github { color: #181717; }
-        .social-links a.gitlab { color: #fc6d26; }
-        .social-links a:hover {
-            transform: scale(1.2);
-        }
-        .bio-section {
-            background: rgba(255, 255, 255, 0.7);
-            padding: 25px;
-            border-radius: 10px;
-            margin: 30px 0;
-            text-align: left;
-        }
-        .bio-section ul {
-            padding-left: 20px;
-        }
-        .bio-section li {
-            margin-bottom: 10px;
-        }
-
-        @media only screen and (max-width: 768px) {
-            :root {
-                --font-size-base: 1.2rem;
-                --font-size-h1: 2.5rem;
-                --font-size-h2: 1.8rem;
-                --icon-size: 32px;
-                --padding-body: 30px;
-            }
-            .social-links {
-                margin-top: 30px;
-                gap: 25px;
-            }
-            .social-links a {
-                width: 60px;
-                height: 60px;
-                line-height: 60px;
-            }
-        }
-
-        @media only screen and (max-width: 480px) {
-            :root {
-                --font-size-base: 1.3rem;
-                --font-size-h1: 2.8rem;
-                --font-size-h2: 2rem;
-                --icon-size: 36px;
-                --padding-body: 20px;
-            }
-            .social-links {
-                gap: 30px;
-            }
-            .bio-section {
-                padding: 15px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <h1>Everton Carvalho</h1>
-    <p>Desenvolvedor Java | Angular</p>
+    <h1>Bem-vindo!</h1>
 
     <div class="bio-section">
-        <h2>Desenvolvedor por profissão, solucionador de problemas por natureza!</h2>
-        <p>Olá! Sou um profissional apaixonado por desenvolvimento, com experiência em engenharia de software, focado em criar soluções robustas e escaláveis.</p>
+        <p>Olá! Meu nome é Everton e sou apaixonado por <span class="highlight">Tecnologia da Informação</span>.</p>
+
+        <p><span class="highlight">Java</span> ☕ é minha especialidade, mas minha atuação na área vai além.</p>
 
         <p>Minha trajetória inclui:</p>
         <ul>
-            <li>Mais de 15 anos de experiência com <span class="highlight">Java</span> ☕ e seus principais frameworks, especificações e bibliotecas.</li>
-            <li>Sólidos conhecimentos em <span class="highlight">APIs RESTful</span> e microsserviços.</li>
-            <li>Conhecimento prático em <span class="highlight">Angular</span>, <span class="highlight">SQL</span>, <span class="highlight">NoSQL</span>,
-                <span class="highlight">Mensageria</span>, <span class="highlight">Kubernetes</span> e <span class="highlight">GCP</span>.</li>
-            <li>Experiência em personalização e arquitetura com <span class="highlight">Keycloak</span> (<span class="highlight">SSO</span>).</li>
-            <li>Atuação com <span class="highlight">sustentação</span> e <span class="highlight">desenvolvimento de novas aplicações</span>.</li>
+            <li>Mais de 15 anos de experiência com <span class="highlight">Java</span> e suas principais especificações, frameworks e bibliotecas.</li>
+            <li>Sólidos conhecimentos em <span class="highlight">APIs RESTful</span> e <span class="highlight">Microsserviços</span>.</li>
+            <li>Conhecimento prático em <span class="highlight">Angular</span>, <span class="highlight">SQL</span>, <span class="highlight">NoSQL</span>, <span class="highlight">Mensageria</span>, <span class="highlight">Kubernetes</span> e <span class="highlight">GCP</span>.</li>
+            <li>Experiência em personalização e arquitetura com <span class="highlight">Keycloak</span> (<span class="highlight">SSO</span>, <span class="highlight">OAuth2</span>, <span class="highlight">OpenID Connect</span>, <span class="highlight">JWT</span>, <span class="highlight">Cluster</span>, <span class="highlight">Cache</span>).</li>
+            <li>Integração entre <span class="highlight">Sistemas Legados</span> e <span class="highlight">Modernos</span>.</li>
         </ul>
 
         <p>Atualmente, estou me aprofundando em <span class="highlight">AWS</span>, enquanto preparo meu portfólio completo.</p>
@@ -139,15 +32,16 @@
     <p>Contato: <span class="highlight">evertonocarvalho@gmail.com</span></p>
 
     <div class="social-links">
-        <a href="https://www.linkedin.com/in/everton-carvalho-java-dev/" target="_blank" class="linkedin" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/everton-carvalho-java-dev/" title="LinkedIn" target="_blank" class="linkedin" aria-label="LinkedIn">
             <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/evertonocarvalho" target="_blank" class="github" aria-label="GitHub">
+        <a href="https://github.com/evertonocarvalho" title="GitHub" target="_blank" class="github" aria-label="GitHub">
             <i class="fab fa-github"></i>
         </a>
-        <a href="https://gitlab.com/users/evertonocarvalho/projects" target="_blank" class="gitlab" aria-label="GitLab">
+        <a href="https://gitlab.com/users/evertonocarvalho/projects" title="GitLab" target="_blank" class="gitlab" aria-label="GitLab">
             <i class="fab fa-gitlab"></i>
         </a>
     </div>
 </body>
+
 </html>
